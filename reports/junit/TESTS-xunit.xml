@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 77.0.3827 (Windows 10.0.0)" package="" timestamp="2019-06-22T22:30:33" id="0" hostname="DESKTOP-OJKACLB" tests="68" errors="0" failures="1" time="7.953">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/77.0.3827.0 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.091" classname="AppComponent"/>
+  <testcase name="AuthenticationGuard should return true if user is authenticated" time="0.011" classname="AuthenticationGuard"/>
+  <testcase name="AuthenticationGuard should have a canActivate method" time="0.008" classname="AuthenticationGuard"/>
+  <testcase name="AuthenticationGuard should save url as queryParam if user is not authenticated" time="0.025" classname="AuthenticationGuard"/>
+  <testcase name="AuthenticationGuard should return false and redirect to login if user is not authenticated" time="0.009" classname="AuthenticationGuard"/>
+  <testcase name="AuthenticationService login should authenticate user" time="0.009" classname="AuthenticationService"/>
+  <testcase name="AuthenticationService login should return credentials" time="0.007" classname="AuthenticationService"/>
+  <testcase name="AuthenticationService login should persist credentials across sessions" time="0.009" classname="AuthenticationService"/>
+  <testcase name="AuthenticationService login should persist credentials for the session" time="0.006" classname="AuthenticationService"/>
+  <testcase name="AuthenticationService logout should clear user authentication" time="0.01" classname="AuthenticationService"/>
+  <testcase name="CacheInterceptor with update forced configuration should force cache update" time="0.014" classname="CacheInterceptor"/>
+  <testcase name="CacheInterceptor with default configuration should cache the request" time="0.009" classname="CacheInterceptor"/>
+  <testcase name="CacheInterceptor with default configuration should respond from the cache" time="0.013" classname="CacheInterceptor"/>
+  <testcase name="CacheInterceptor with default configuration should not cache the request in case of error" time="0.006" classname="CacheInterceptor"/>
+  <testcase name="Logger should add a new LogOutput and receives only production log entries" time="0.001" classname="Logger"/>
+  <testcase name="Logger should create an instance" time="0" classname="Logger"/>
+  <testcase name="Logger should add a new LogOutput and receives log entries" time="0.001" classname="Logger"/>
+  <testcase name="LoginComponent should create" time="1.093" classname="LoginComponent"/>
+  <testcase name="HttpService should use error handler, API prefix and no cache by default" time="0.018" classname="HttpService"/>
+  <testcase name="HttpService should not use API prefix" time="0.013" classname="HttpService"/>
+  <testcase name="HttpService should use cache" time="0.008" classname="HttpService"/>
+  <testcase name="HttpService should skip error handler" time="0.014" classname="HttpService"/>
+  <testcase name="Shell childRoutes should create routes as children of shell" time="0.002" classname="Shell"/>
+  <testcase name="CredentialsService setCredentials should persist credentials across sessions" time="0.006" classname="CredentialsService"/>
+  <testcase name="CredentialsService setCredentials should clear user authentication" time="0.006" classname="CredentialsService"/>
+  <testcase name="CredentialsService setCredentials should persist credentials for the session" time="0.01" classname="CredentialsService"/>
+  <testcase name="CredentialsService setCredentials should authenticate user if credentials are set" time="0.006" classname="CredentialsService"/>
+  <testcase name="CredentialsService setCredentials should clean authentication" time="0.009" classname="CredentialsService"/>
+  <testcase name="AboutComponent should create" time="0.746" classname="AboutComponent"/>
+  <testcase name="HttpCacheService getCacheData should return null if no cache" time="0.036" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService getCacheData should return cached data if exists" time="0.017" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService getCacheData should return cached data with url parameters if exists" time="0.015" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService clearCacheData should do nothing if no cache exists" time="0.012" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService clearCacheData should clear existing cache data" time="0.019" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService setCacheData should set cache data" time="0.02" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService setCacheData should replace existing data" time="0.017" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService setCacheData should set cache date correctly" time="0.012" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService cleanCache should clear all cache if no date is specified" time="0.011" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService cleanCache should clear existing since specified date" time="0.014" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService cleanCache should not affect cache entries newer than specified date" time="0.011" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService getHttpCacheEntry should return null if no cache" time="0.01" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService getHttpCacheEntry should return cached data date  if exists" time="0.015" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService setPersistence should persist cache to session storage" time="0.01" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService setPersistence should clear previous cache data when persistence value change" time="0.012" classname="HttpCacheService"/>
+  <testcase name="HttpCacheService setPersistence should persist cache to local storage" time="0.009" classname="HttpCacheService"/>
+  <testcase name="LoaderComponent should not display a message by default" time="0.718" classname="LoaderComponent"/>
+  <testcase name="LoaderComponent should not be visible by default" time="0.831" classname="LoaderComponent"/>
+  <testcase name="LoaderComponent should be visible when app is loading" time="0.813" classname="LoaderComponent"/>
+  <testcase name="LoaderComponent should display specified message" time="0.695" classname="LoaderComponent"/>
+  <testcase name="ApiPrefixInterceptor should prepend environment.serverUrl to the request url" time="0.006" classname="ApiPrefixInterceptor"/>
+  <testcase name="ApiPrefixInterceptor should not prepend environment.serverUrl to request url" time="0.007" classname="ApiPrefixInterceptor"/>
+  <testcase name="I18nService init should init with default language" time="0.007" classname="I18nService"/>
+  <testcase name="I18nService init should init with save language" time="0.012" classname="I18nService"/>
+  <testcase name="I18nService set language should change current language to default if unsupported" time="0.005" classname="I18nService"/>
+  <testcase name="I18nService set language should change current language" time="0.005" classname="I18nService"/>
+  <testcase name="I18nService set language should change current language without a region match" time="0.007" classname="I18nService"/>
+  <testcase name="I18nService extract should not modify string" time="0.006" classname="I18nService"/>
+  <testcase name="I18nService get language should return current language" time="0.011" classname="I18nService"/>
+  <testcase name="ErrorHandlerInterceptor should catch error and call error handler" time="0.011" classname="ErrorHandlerInterceptor"/>
+  <testcase name="untilDestroyed should throw when destroy method doesnt exist" time="0" classname="untilDestroyed"/>
+  <testcase name="untilDestroyed should work with subclass" time="0.001" classname="untilDestroyed"/>
+  <testcase name="untilDestroyed should unsubscribe from anywhere" time="0.001" classname="untilDestroyed"/>
+  <testcase name="untilDestroyed should not throw when destroy method is implemented on super class" time="0" classname="untilDestroyed"/>
+  <testcase name="untilDestroyed should not destroy other instances" time="0" classname="untilDestroyed"/>
+  <testcase name="untilDestroyed should work with multiple observables" time="0.001" classname="untilDestroyed"/>
+  <testcase name="untilDestroyed should work with classes that are not components" time="0" classname="untilDestroyed"/>
+  <testcase name="HomeComponent should create" time="1.72" classname="HomeComponent">
+    <failure type="">  &lt;div style="height: 500px;"
+  leaflet
+  [ERROR -&gt;][leafletOptions]="options"
+  (leafletMapReady)="onMapReady($event)"&gt;
+&lt;/div&gt;
+Can't bind to 'leafletOptions' since it isn't a known property of 'div'. ("
+  &lt;div style="height: 500px;"
+  leaflet
+  [ERROR -&gt;][leafletOptions]="options"
+  (leafletMapReady)="onMapReady($event)"&gt;
+&lt;/div&gt;
+"): ng:///DynamicTestModule/HomeComponent.html@3:2
+error properties: Object({ ngSyntaxError: true, ngParseErrors: [ Can't bind to 'leafletOptions' since it isn't a known property of 'div'. ("
+"): ng:///DynamicTestModule/HomeComponent.html@3:2 ] })
+Error: Template parse errors:
+    at syntaxError (node_modules/@angular/compiler/fesm5/compiler.js:2430:1)
+    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse (node_modules/@angular/compiler/fesm5/compiler.js:20605:1)
+    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate (node_modules/@angular/compiler/fesm5/compiler.js:26171:1)
+    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate (node_modules/@angular/compiler/fesm5/compiler.js:26158:1)
+    at node_modules/@angular/compiler/fesm5/compiler.js:26101:48
+    at &lt;Jasmine&gt;
+    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents (node_modules/@angular/compiler/fesm5/compiler.js:26101:1)
+    at node_modules/@angular/compiler/fesm5/compiler.js:26019:1
+    at Object.then (node_modules/@angular/compiler/fesm5/compiler.js:2421:33)
+    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents (node_modules/@angular/compiler/fesm5/compiler.js:26017:1)
+</failure>
+    <failure type="">  &lt;div style="height: 500px;"
+  leaflet
+  [ERROR -&gt;][leafletOptions]="options"
+  (leafletMapReady)="onMapReady($event)"&gt;
+&lt;/div&gt;
+Error: Template parse errors:
+Can't bind to 'leafletOptions' since it isn't a known property of 'div'. ("
+  &lt;div style="height: 500px;"
+  leaflet
+  [ERROR -&gt;][leafletOptions]="options"
+  (leafletMapReady)="onMapReady($event)"&gt;
+&lt;/div&gt;
+"): ng:///DynamicTestModule/HomeComponent.html@3:2
+error properties: Object({ ngSyntaxError: true, ngParseErrors: [ Can't bind to 'leafletOptions' since it isn't a known property of 'div'. ("
+"): ng:///DynamicTestModule/HomeComponent.html@3:2 ] })
+    at syntaxError (node_modules/@angular/compiler/fesm5/compiler.js:2430:1)
+    at TemplateParser.push../node_modules/@angular/compiler/fesm5/compiler.js.TemplateParser.parse (node_modules/@angular/compiler/fesm5/compiler.js:20605:1)
+    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._parseTemplate (node_modules/@angular/compiler/fesm5/compiler.js:26171:1)
+    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileTemplate (node_modules/@angular/compiler/fesm5/compiler.js:26158:1)
+    at node_modules/@angular/compiler/fesm5/compiler.js:26101:48
+    at &lt;Jasmine&gt;
+    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileComponents (node_modules/@angular/compiler/fesm5/compiler.js:26101:1)
+    at node_modules/@angular/compiler/fesm5/compiler.js:26019:1
+    at Object.then (node_modules/@angular/compiler/fesm5/compiler.js:2421:33)
+    at JitCompiler.push../node_modules/@angular/compiler/fesm5/compiler.js.JitCompiler._compileModuleAndAllComponents (node_modules/@angular/compiler/fesm5/compiler.js:26017:1)
+</failure>
+    <failure type="">Error: Expected undefined to be truthy.
+    at &lt;Jasmine&gt;
+    at UserContext.&lt;anonymous&gt; (src/app/home/home.component.spec.ts:37:23)
+    at ZoneDelegate../node_modules/zone.js/dist/zone.js.ZoneDelegate.invoke (node_modules/zone.js/dist/zone.js:391:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (node_modules/zone.js/dist/zone-testing.js:289:1)
+</failure>
+  </testcase>
+  <testcase name="ShellComponent should create" time="0.696" classname="ShellComponent"/>
+  <system-out>
+    <![CDATA[
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
